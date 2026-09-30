@@ -1,0 +1,14 @@
+.DS_Store
+.localized
+__MACOSX/
+.AppleDouble
+.LSOverride
+
+.env
+*.log
+*.pyc
+.venv/
+graphs/
+
+.vscode
+*.egg-info/
