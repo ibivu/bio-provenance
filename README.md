@@ -1,6 +1,8 @@
 ## Running the evaluation scripts
 
-To run only the evaluation scripts presented in the manuscript, copy the `.env.example` to `.env`.
+To run only the evaluation scripts presented in the manuscript, first recreate the python environment using `uv sync`.
+You may need to install [uv](https://docs.astral.sh/uv/getting-started/installation/) for this.
+Afterwards, just copy the `.env.example` to `.env` and everything should be set up.
 Then, go to the `multi_path_analysis.ipynb` and run the notebook.
 You can click through different alert nodes and run cells after the selection again to see the impact of each alert node. 
 The captured COVID-19 analyses can be run via the `compare_analysis_result.ipynb` notebook. 
